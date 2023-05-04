@@ -8,7 +8,7 @@ clock = pygame.time.Clock()
 
 while True:
     screen.fill("blue")
-    circle = pygame.draw.circle(screen, ("black"), (x, y), 25)
+    circle = pygame.draw.circle(screen, ("red"), (x, y), 25)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
